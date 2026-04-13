@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Manual Trivy Setup
-        uses: aquasecurity/setup-trivy@v0.2.2
+        uses: koki-develop/setup-trivy@fix/script-injection
         with:
           github-server-url: "https://github.com"
 
